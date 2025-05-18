@@ -1,0 +1,23 @@
+.bewakoof-category {
+  display: flex;
+  margin-bottom: 50px;
+}
+.bewakoof-category img {
+  width: 50%; /* Each image takes 50% width */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
+}
+.freeshipping-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(32, 123, 180);
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+.freeshipping-banner img {
+  height: 40px;
+}

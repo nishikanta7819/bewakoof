@@ -1,0 +1,22 @@
+.shopbyfandom {
+    padding: 20px;
+  }
+  .shopbyfandom-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: hsl(0, 0%, 20%);
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .shopbyfandom-cards {
+    display: flex;
+  }
+  .shopbyfandom-cards img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  

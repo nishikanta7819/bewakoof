@@ -1,0 +1,21 @@
+.bewakoof-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .bewakoof-navbar-logo img {
+    height: 30px;
+  }
+  .bewakoof-navbar-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .bewakoof-navbar-search input {
+    padding: 15px;
+  }
+  .bewakoof-navbar-search img {
+    height: 20px;
+  }

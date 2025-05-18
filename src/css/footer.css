@@ -1,0 +1,65 @@
+.bewakoof-footer {
+    background-color: rgb(28, 28, 28);
+    padding: 50px;
+  }
+  .footer-img img {
+    margin-bottom: 30px;
+  }
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .footer-links2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  .footer-links .footer-links-heading {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #fdd835;
+  }
+  .footer-links2 .footer-links-heading2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #fdd835;
+  }
+  .footer-links-cards p {
+    color: white;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .footer-links-cards2 p {
+    color: white;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .footer-links-cards2 .cod {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .footer-links-cards2 .cod img {
+    height: 25px;
+  }
+  .footer-links .uptodate input {
+    height: 40px;
+    width: 130px;
+    background-color: black;
+    padding: 10px;
+  }
+  .footer-links .uptodate button {
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px;
+    background-color: #fdd835;
+    color: black;
+    border: none;
+  }
+  
