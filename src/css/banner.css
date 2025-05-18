@@ -21,3 +21,16 @@
 .freeshipping-banner img {
   height: 40px;
 }
+@media(max-width:450px){
+  .bewakoof-category{
+    margin-bottom: 15px;
+  }
+  .freeshipping-banner{
+    font-size: 9px;
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+  .freeshipping-banner img {
+    height: 20px;
+  }
+}

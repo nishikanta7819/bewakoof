@@ -14,3 +14,14 @@
     gap: 10px;
     height: 400px;
   }
+
+  @media(max-width:450px){
+    .offers-title {
+      font-size: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .offers img{
+      height: 120px;
+    }
+  }

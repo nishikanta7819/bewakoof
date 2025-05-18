@@ -62,4 +62,30 @@
     color: black;
     border: none;
   }
-  
+  @media(max-width:450px){
+    .bewakoof-footer{
+      width: 100%;
+      padding: 0px;
+    }
+    .footer-img{
+      padding: 20px;
+    }
+    .footer-img img{
+      height: 20px;
+    }
+    .footer-links{
+      gap: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .footer-links .footer-links-heading {
+      font-size: 10px;
+    }
+    .footer-links .uptodate input{
+      height: 25px;
+    }
+     .footer-links .uptodate button {
+      font-size: 10px;
+      padding: 5px;
+     }
+  }
