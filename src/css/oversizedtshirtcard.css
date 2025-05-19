@@ -1,0 +1,8 @@
+.oversizedtshirt-card {
+  border: 1px solid gray;
+  width: 250px;padding: 20px;
+  margin-bottom: 20px;
+}
+.oversizedtshirt-card img {
+  height: 300px;
+}
