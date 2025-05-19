@@ -1,8 +1,42 @@
 .oversizedtshirt-card {
   border: 1px solid gray;
-  width: 250px;padding: 20px;
+  width: 250px;
+  padding: 20px;
   margin-bottom: 20px;
+  height: 380px;
+  width: calc(20% - 10px);
 }
 .oversizedtshirt-card img {
   height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.oversizedtshirt-card-title {
+  font-size: 12px;
+  color: hsl(0, 0%, 30%);
+  font-weight: 600;
+}
+@media (max-width: 450px) {
+  .oversizedtshirt-card {
+    width: calc(20% - 5px);
+    height: 100px;
+    padding: 10px;
+    margin-bottom:5px;
+  }
+  .oversizedtshirt-card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .oversizedtshirt-card-img img {
+    height: 70px;
+  }
+  .oversizedtshirt-card-title {
+    font-size: 5px;
+  }
+  .oversizedtshirt-card-price {
+    font-size: 5px;
+  }
 }

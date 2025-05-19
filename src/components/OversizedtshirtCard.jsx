@@ -4,15 +4,19 @@ import "../css/OversizedtshirtCard.css";
 const OversizedtshirtCard = ({ product }) => {
   return (
     <div className="oversizedtshirt-card">
-      <img src={product.image} alt={product.title} />
-      <p>{product.title}</p>
-      <p>
+      <div className="oversizedtshirt-card-img">
+        <img src={product.image} alt={product.title} />
+      </div>
+      <div className="oversizedtshirt-card-title">
+        <p>{product.title}</p>
+      </div>
+      <div className="oversizedtshirt-card-price">
         <span style={{ fontWeight: "bold" }}>₹{product.discountedprice}</span>{" "}
         <span style={{ textDecoration: "line-through" }}>
           ₹{product.originalprice}
         </span>{" "}
         <span style={{ color: "green" }}>{product.discountpercentage}</span>
-      </p>
+      </div>
     </div>
   );
 };

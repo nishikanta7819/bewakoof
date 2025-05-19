@@ -1,24 +1,39 @@
-.oversizedtshirts-heading{
-    display: flex;
-    align-items: center;
-    gap: 20px;
+.oversizedtshirts-heading {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
-.oversizedtshirts-title{
-    font-size: 30px;
-    color: hsl(0, 0%, 20%);
+.oversizedtshirts-title {
+  font-size: 30px;
+  color: hsl(0, 0%, 20%);
 }
-.oversizedtshirts-counts{
-    color: hsl(0, 0%, 60%);
+.oversizedtshirts-counts {
+  color: hsl(0, 0%, 60%);
 }
-.oversizedtshirts-banner{
-    margin-bottom: 30px;
+.oversizedtshirts-banner {
+  margin-bottom: 30px;
 }
-.oversizedtshirts-banner img{
-    width: 100%;
+.oversizedtshirts-banner img {
+  width: 100%;
 }
-.oversizedtshirts-products{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+.oversizedtshirts-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+@media (max-width: 450px) {
+  .oversizedtshirts-heading {
+    gap: 10px;
+  }
+  .oversizedtshirts-banner {
+  margin-bottom: 10px;
+}
+  .oversizedtshirts-title {
+    font-size: 15px;
+  }
+  .oversizedtshirts-counts {
+    font-size: 8px;
+  }
 }
