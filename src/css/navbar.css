@@ -11,7 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
 }
 .bewakoof-navbar-search input {
   padding: 15px;
@@ -19,25 +19,28 @@
 }
 .bewakoof-navbar-search img {
   height: 20px;
+  cursor: pointer;
 }
 
 @media (max-width: 450px) {
   .bewakoof-navbar {
     width: 100%;
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   .bewakoof-navbar-logo img {
-    /* height: 20px; */
+    height: 50px;
     width: 50%;
   }
   .bewakoof-navbar-search {
     width: 50%;
+    gap: 5px;
     padding: 20px 0px 20px 20px;
   }
   .bewakoof-navbar-search input {
+    font-size: 8px;
     width: 100%;
-    padding: 5px;
+    padding: 3px;
   }
   .bewakoof-navbar-search img {
     height: 15px;
