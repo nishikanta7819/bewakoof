@@ -11,8 +11,8 @@ const Navbar = () => {
         />
       </div>
       <div className="bewakoof-navbar-search">
-        <img src="https://cdn-icons-png.flaticon.com/128/54/54481.png" alt="" />
         <input type="search" placeholder="Search by products" />
+        <img src="https://cdn-icons-png.flaticon.com/128/54/54481.png" alt="" />
       </div>
     </div>
   );
