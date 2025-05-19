@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/oversizedtshirtCard.css";
+import "../css/oversizedtshirtcard.css";
 
 const OversizedtshirtCard = ({ product }) => {
   return (
