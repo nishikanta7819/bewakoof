@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .bewakoof-navbar-logo img {
   height: 30px;
@@ -26,7 +26,7 @@
   .bewakoof-navbar {
     width: 100%;
     display: flex;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
   }
   .bewakoof-navbar-logo img {
     height: 50px;

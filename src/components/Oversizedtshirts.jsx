@@ -63,7 +63,7 @@ const Oversizedtshirts = () => {
     <div className="oversizedtshirts">
       <div className="oversizedtshirts-heading">
         <div className="oversizedtshirts-title">
-          <p>Oversized T Shirt Men</p>
+          <p>Oversized T Shirts Men</p>
         </div>
         <div className="oversizedtshirts-counts">
           <p>7819 Products</p>

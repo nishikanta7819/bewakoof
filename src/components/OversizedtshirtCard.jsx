@@ -12,10 +12,12 @@ const OversizedtshirtCard = ({ product }) => {
       </div>
       <div className="oversizedtshirt-card-price">
         <span style={{ fontWeight: "bold" }}>₹{product.discountedprice}</span>{" "}
-        <span style={{ textDecoration: "line-through" }}>
+        <span style={{ textDecoration: "line-through",color:"gray" }}>
           ₹{product.originalprice}
         </span>{" "}
-        <span style={{ color: "green" }}>{product.discountpercentage}</span>
+        <span style={{ color: "green", fontWeight: "bold" }}>
+          {product.discountpercentage}
+        </span>
       </div>
     </div>
   );

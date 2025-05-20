@@ -13,7 +13,6 @@ const ShopbyCategoryMen = () => {
           <img
             src="https://images.bewakoof.com/uploads/grid/app/444x666-Trending-Category-Icon-OS-T-Shirts-1735907878.jpg"
             alt=""
-            style={{ cursor: "pointer" }}
             onClick={() => navigate("/oversizedtshirts")}
           />
           <img
