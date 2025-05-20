@@ -25,7 +25,7 @@
 @media (max-width: 640px) {
   .jeans-card {
     width: calc(30% - 8px);
-    height: 140px;
+    height: 10px;
     padding: 2px;
     margin-bottom: 5px;
   }
