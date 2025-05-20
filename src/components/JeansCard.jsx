@@ -1,16 +1,16 @@
 import React from "react";
-import '../css/jeanscard.css'
+import '../css/productcard.css'
 
 const JeansCard = ({ product }) => {
   return (
-    <div className="jeans-card">
-      <div className="jeans-card-img">
+    <div className="product-card">
+      <div className="product-card-img">
         <img src={product.image} alt={product.title} />
       </div>
-      <div className="jeans-card-title">
+      <div className="product-card-title">
         <p>{product.title}</p>
       </div>
-      <div className="jeans-card-price">
+      <div className="product-card-price">
         <span style={{ fontWeight: "bold" }}>₹{product.discountedprice}</span>{" "}
         <span style={{ textDecoration: "line-through", color: "gray" }}>
           ₹{product.originalprice}

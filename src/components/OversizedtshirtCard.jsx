@@ -1,16 +1,16 @@
 import React from "react";
-import "../css/oversizedtshirtcard.css";
+import "../css/products.css";
 
 const OversizedtshirtCard = ({ product }) => {
   return (
-    <div className="oversizedtshirt-card">
-      <div className="oversizedtshirt-card-img">
+    <div className="product-card">
+      <div className="product-card-img">
         <img src={product.image} alt={product.title} />
       </div>
-      <div className="oversizedtshirt-card-title">
+      <div className="product-card-title">
         <p>{product.title}</p>
       </div>
-      <div className="oversizedtshirt-card-price">
+      <div className="productcard-price">
         <span style={{ fontWeight: "bold" }}>₹{product.discountedprice}</span>{" "}
         <span style={{ textDecoration: "line-through",color:"gray" }}>
           ₹{product.originalprice}
