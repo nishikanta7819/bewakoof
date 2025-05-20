@@ -1,0 +1,39 @@
+.jeans-heading {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.jeans-title {
+  font-size: 30px;
+  color: hsl(0, 0%, 20%);
+}
+.jeans-counts {
+  color: hsl(0, 0%, 60%);
+}
+.jeans-banner {
+  margin-bottom: 30px;
+}
+.jeans-banner img {
+  width: 100%;
+}
+.jeans-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+@media (max-width: 640px) {
+  .jeans-heading {
+    gap: 10px;
+  }
+  .jeans-banner {
+  margin-bottom: 10px;
+}
+  .jeans-title {
+    font-size: 15px;
+  }
+  .jeans-counts {
+    font-size: 8px;
+  }
+}

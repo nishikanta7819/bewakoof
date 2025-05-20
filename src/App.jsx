@@ -7,6 +7,7 @@ import ShopbyCategoryWomen from "./components/ShopbyCategoryWomen";
 import ShopbyFandom from "./components/ShopbyFandom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Oversizedtshirts from "./components/Oversizedtshirts";
+import Jeans from "./components/Jeans";
 
 function Home() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/oversizedtshirts" element={<Oversizedtshirts />} />
+          <Route path="/jeans" element={<Jeans/>}/>
         </Routes>
         <Footer />
       </Router>

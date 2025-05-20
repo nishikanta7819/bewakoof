@@ -17,7 +17,7 @@ const ShopbyCategoryMen = () => {
           />
           <img
             src="https://images.bewakoof.com/uploads/grid/app/444x666-Trending-Category-Icon-Jeans-1735907918.jpg"
-            alt=""
+            alt="" onClick={() => navigate("/jeans")}
           />
           <img
             src="https://images.bewakoof.com/uploads/grid/app/444x666-Trending-Category-Icon-Hoodies-1735907894.jpg"
