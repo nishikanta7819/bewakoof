@@ -6,6 +6,7 @@ const Oversizedtshirts = () => {
   const Oversizedtshirtsdata = [
     {
       id: 1,
+      type:"oversized-tshirt",
       image:
         "https://images.bewakoof.com/t1080/men-s-green-master-88-graphic-printed-oversized-t-shirt-575358-1717060472-1.jpg",
       title: "Men's Green Master 88 Graphic Printed Oversized T-shirt",
@@ -15,15 +16,18 @@ const Oversizedtshirts = () => {
     },
     {
       id: 2,
+      type:"oversized-tshirt",
       image:
         "https://images.bewakoof.com/original/men-s-blue-let-me-take-a-selfie-graphic-printed-oversized-t-shirt-577416-1734699036-1.jpg",
-      title: "Men's Blue Let Me Take A Selfie Graphic Printed Oversized T-shirt",
+      title:
+        "Men's Blue Let Me Take A Selfie Graphic Printed Oversized T-shirt",
       originalprice: "1499",
       discountedprice: "249",
       discountpercentage: "83% off",
     },
     {
       id: 3,
+      type:"oversized-tshirt",
       image:
         "https://images.bewakoof.com/t640/men-s-grey-eternity-graphic-printed-oversized-t-shirt-596129-1735645993-1.jpg",
       title: "Men's Grey Eternity Graphic Printed Oversized T-shirt",
@@ -33,6 +37,7 @@ const Oversizedtshirts = () => {
     },
     {
       id: 4,
+      type:"oversized-tshirt",
       image:
         "https://images.bewakoof.com/original/men-s-grey-skater-donald-graphic-printed-oversized-t-shirt-602558-1688380650-1.jpg",
       title: "Men's Grey Skater Donald Graphic Printed Oversized T-shirt",
@@ -42,6 +47,7 @@ const Oversizedtshirts = () => {
     },
     {
       id: 5,
+      type:"oversized-tshirt",
       image:
         "https://images.bewakoof.com/t1080/men-s-white-flame-hashira-graphic-printed-oversized-t-shirt-602543-1726230895-1.jpg",
       title: "Men's White Flame Hashira Graphic Printed Oversized T-shirt",
@@ -51,6 +57,7 @@ const Oversizedtshirts = () => {
     },
     {
       id: 6,
+      type:"oversized-tshirt",
       image:
         "https://images.bewakoof.com/t1080/men-s-blue-the-dark-knight-graphic-printed-oversized-t-shirt-592034-1716887382-1.jpg",
       title: "Men's Blue The Dark Knight Graphic Printed Oversized T-shirt",
@@ -66,7 +73,7 @@ const Oversizedtshirts = () => {
           <p>Oversized T Shirts Men</p>
         </div>
         <div className="oversizedtshirts-counts">
-          <p>7819 Products</p>
+          <p>{Oversizedtshirtsdata.length} products</p>
         </div>
       </div>
       <div className="oversizedtshirts-banner">

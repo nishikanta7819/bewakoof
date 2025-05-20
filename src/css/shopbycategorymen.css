@@ -21,7 +21,7 @@
   max-width: calc(33.333% - 10px);
   cursor: pointer;
 }
-@media (max-width: 450px) {
+@media (max-width: 640px) {
   .shopbycategorymen-title {
     font-size: 10px;
     margin-bottom: 10px;
